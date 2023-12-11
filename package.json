@@ -3,12 +3,16 @@
   "version": "1.0.0",
   "description": "A web app to get all events and activities in your own city.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "type": "module",
+  "scripts": {},
   "author": "Erik Fazio",
   "license": "ISC",
   "dependencies": {
+    "mongoose": "^8.0.3",
     "puppeteer": "^21.5.2"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.1",
+    "@types/node": "^20.10.4"
   }
 }
